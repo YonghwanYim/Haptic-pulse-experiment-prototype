@@ -129,71 +129,93 @@ void loop() {
     switch(splitResult[0].toInt())  // toInt() : "char type" -> "int type"
     {
       case 1:
-        Serial.println("Pulse 1 : Fast In Slow Out");
-        pulse1_FastInSlowOut(); break;
+        Serial.print("Pulse 1 : Fast In Slow Out");
+        pulse1_FastInSlowOut();
+        Serial.println(" - Completed."); break;
       case 2:
-        Serial.println("Pulse 2 : Blink Twice");
-        pulse2_BlinkTwice(); break;
+        Serial.print("Pulse 2 : Blink Twice");
+        pulse2_BlinkTwice();
+        Serial.println(" - Completed."); break;
       case 3:
-        Serial.println("Pulse 3 : SOS Blink");
-        pulse3_SOSBlink(); break;
+        Serial.print("Pulse 3 : SOS Blink");
+        pulse3_SOSBlink();
+        Serial.println(" - Completed."); break;
       case 4:
-        Serial.println("Pulse 4 : Blink Thrice");
-        pulse4_BlinkThrice(); break;
+        Serial.print("Pulse 4 : Blink Thrice");
+        pulse4_BlinkThrice();
+        Serial.println(" - Completed."); break;
       case 5:
-        Serial.println("Pulse 5 : Fade In");
-        pulse5_FadeIn(); break;
+        Serial.print("Pulse 5 : Fade In");
+        pulse5_FadeIn();
+        Serial.println(" - Completed."); break;
       case 6:
-        Serial.println("Pulse 6 : Fade Out");
-        pulse6_FadeOut(); break;
+        Serial.print("Pulse 6 : Fade Out");
+        pulse6_FadeOut();
+        Serial.println(" - Completed."); break;
       case 7:
-        Serial.println("Pulse 7 : EKG");
-        pulse7_EKG(); break;
+        Serial.print("Pulse 7 : EKG");
+        pulse7_EKG();
+        Serial.println(" - Completed."); break;
       case 8:
-        Serial.println("Pulse 8 : Gradual Build");
-        pulse8_GradualBuild(); break;
+        Serial.print("Pulse 8 : Gradual Build");
+        pulse8_GradualBuild();
+        Serial.println(" - Completed."); break;
       case 9:
-        Serial.println("Pulse 9 : Lighthouse");
-        pulse9_Lighthouse(); break;    
+        Serial.print("Pulse 9 : Lighthouse");
+        pulse9_Lighthouse();
+        Serial.println(" - Completed."); break;
       case 10:
-        Serial.println("Pulse 10 : Dark Flash");
-        pulse10_DarkFlash(); break;
+        Serial.print("Pulse 10 : Dark Flash");
+        pulse10_DarkFlash();
+        Serial.println(" - Completed."); break;
       case 11:
-        Serial.println("Pulse 11 : Blink Decreasing");
-        pulse11_BlinkDecreasing(); break;
+        Serial.print("Pulse 11 : Blink Decreasing");
+        pulse11_BlinkDecreasing();
+        Serial.println(" - Completed."); break;
       case 12:
-        Serial.println("Pulse 12 : Heartbeat");
-        pulse12_Heartbeat(); break;
+        Serial.print("Pulse 12 : Heartbeat");
+        pulse12_Heartbeat();
+        Serial.println(" - Completed."); break;
       case 13:
-        Serial.println("Pulse 13 : Blink Increasing");
-        pulse13_BlinkIncreasing(); break;
+        Serial.print("Pulse 13 : Blink Increasing");
+        pulse13_BlinkIncreasing();
+        Serial.println(" - Completed."); break;
       case 14:
-        Serial.println("Pulse 14 : Raindrops");
-        pulse14_Raindrops(); break;     
+        Serial.print("Pulse 14 : Raindrops");
+        pulse14_Raindrops();
+        Serial.println(" - Completed."); break;
       case 15:
-        Serial.println("Pulse 15 : Candle");
-        pulse15_Candle(); break;
+        Serial.print("Pulse 15 : Candle");
+        pulse15_Candle();
+        Serial.println(" - Completed."); break;
       case 16:
-        Serial.println("Pulse 16 : Transmission, Random Brightness");
-        pulse16_TransmissionRandomBrightness(); break;
+        Serial.print("Pulse 16 : Transmission, Random Brightness");
+        pulse16_TransmissionRandomBrightness();
+        Serial.println(" - Completed."); break;
       case 17:
-        Serial.println("Pulse 17 : Lightning");
-        pulse17_Lightning(); break;
+        Serial.print("Pulse 17 : Lightning");
+        pulse17_Lightning();
+        Serial.println(" - Completed."); break;
       case 18:
-        Serial.println("Pulse 18 : Transmission, Fixed Brightness");
-        pulse18_TransmissionFixedBrightness(); break;
+        Serial.print("Pulse 18 : Transmission, Fixed Brightness");
+        pulse18_TransmissionFixedBrightness();
+        Serial.println(" - Completed."); break;
       case 19:
-        Serial.println("Pulse 19 : Staircase Continuous");
-        pulse19_StaircaseContinuous(); break;
+        Serial.print("Pulse 19 : Staircase Continuous");
+        pulse19_StaircaseContinuous();
+        Serial.println(" - Completed."); break;
       case 20:
-        Serial.println("Pulse 20 : Twinkle");
-        pulse20_Twinkle(); break;
+        Serial.print("Pulse 20 : Twinkle");
+        pulse20_Twinkle();
+        Serial.println(" - Completed."); break;
       case 21:
-        Serial.println("Pulse 21 : Staircase Blink");
-        pulse21_StaircaseBlink(); break;
+        Serial.print("Pulse 21 : Staircase Blink");
+        pulse21_StaircaseBlink();
+        Serial.println(" - Completed."); break;
       case 22:
-        Serial.println("Pulse 22 : Irregular Blink");
-        pulse22_IrregularBlink(); break;
+        Serial.print("Pulse 22 : Irregular Blink");
+        pulse22_IrregularBlink();
+        Serial.println(" - Completed."); break;
     }
   }
   command = ""; // command reset.
