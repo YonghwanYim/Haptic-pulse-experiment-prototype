@@ -1,5 +1,5 @@
 /*
- * Project Title : Haptic Pulse ver 2 - Primary experiment for pulse duration selection.
+ * Project Title : Haptic Pulse ver 3.
  * Author : Yonghwan Yim
  * Experience Innovation Design Lab.
  * Department of Industrial Engineering
