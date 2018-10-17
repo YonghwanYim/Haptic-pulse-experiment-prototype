@@ -1,1 +1,1 @@
-# Haptic-pulse-experiment-prototype
+# Implementation of vibration pulses
